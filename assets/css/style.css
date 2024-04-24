@@ -65,6 +65,7 @@ body {
     margin: 25px auto 0;
     cursor: pointer;
     border-radius: 4px;
-    display: block;
     text-align: center;
+    /*Making button hidden*/
+    display: none;
 }
