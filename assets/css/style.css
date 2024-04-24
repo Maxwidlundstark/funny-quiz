@@ -17,19 +17,35 @@ body {
     border-radius: 15px;
     padding: 30px;
 }
-.game h1 {
+.game h1{
     font-size: 25px;
-    color: #3a3a3a; 
+    color: #001e4d; 
     font-weight: 600;
     border-bottom: 2px solid gray;
     padding-bottom: 25px;
 }
-.quiz {
-    color: #3a3a3a;
+.quiz{
+    padding: 20px 0;
 }
-#question {
-    color:#3a3a3a;
+.quiz h2{
+    font-size: 16px;
+    color: #001e4d;
+    font-weight: 600;
 }
-#answer-buttons {
-    color:#3a3a3a;
+.btn{
+    background: #fafafa;
+    color: gray;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    background: gray;
+    color: white;
 }
