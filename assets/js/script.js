@@ -1,50 +1,41 @@
 // set the questions for the quiz
 const questions = [
     {
-        question: "question 1 goes here",
+        question: "What colors does the swedish flag have?",
         answers: [
-            { text: "asnwer1", correct: false},
-            { text: "asnwer2", correct: true},
-            { text: "asnwer3", correct: false},
-            { text: "asnwer4", correct: false},
+            { text: "blue & white", correct: false},
+            { text: "blue & yellow", correct: true},
+            { text: "red & white", correct: false},
+            { text: "red & blue", correct: false},
         ]
     }, 
     {
-        question: "question 2 goes here",
+        question: "What country invented Spotify?",
         answers: [
-            { text: "asnwer1", correct: false},
-            { text: "asnwer2", correct: false},
-            { text: "asnwer3", correct: true},
-            { text: "asnwer4", correct: false},
+            { text: "Germany", correct: false},
+            { text: "Denmark", correct: false},
+            { text: "Sweden", correct: true},
+            { text: "Norway", correct: false},
         ]
     },
     {
-        question: "question 3 goes here",
+        question: "Which of these answers is not Swedish?",
         answers: [
-            { text: "asnwer1", correct: true},
-            { text: "asnwer2", correct: false},
-            { text: "asnwer3", correct: false},
-            { text: "asnwer4", correct: false},
+            { text: "...", correct: true},
+            { text: "IKEA", correct: false},
+            { text: "Volvo", correct: false},
+            { text: "Abba", correct: false},
         ]
     },
     {
-        question: "question 4 goes here",
+        question: "Which artist is not from sweden?",
         answers: [
-            { text: "asnwer1", correct: false},
-            { text: "asnwer2", correct: true},
-            { text: "asnwer3", correct: false},
-            { text: "asnwer4", correct: false},
+            { text: "Zara Larsson", correct: false},
+            { text: "David Guetta", correct: true},
+            { text: "Avicii", correct: false},
+            { text: "Swedish House Mafia", correct: false},
         ]
     },
-    {
-        question: "question 5 goes here",
-        answers: [
-            { text: "asnwer1", correct: false},
-            { text: "asnwer2", correct: false},
-            { text: "asnwer3", correct: false},
-            { text: "asnwer4", correct: true},
-        ]
-    }
 ];
 // Add variables from HTML by targeting the ID
 const question = document.getElementById("question");
@@ -65,12 +56,12 @@ function startQuiz(){
  // function to display the questions
 function showQuestion(){
     let currentQuestion = questions[currentQuestionIndex];
-    let questionNumber = currentQuestion + 1;
-    question.innerHTML = questionNumber + ". " + currentQuestion.question;
+    let questionNo = currentQuestionIndex + 1;
+    question.innerHTML = questionNo + ". " + currentQuestion.question;
 // code for displaying answers
-    currentQuestion.answers.forEach(anser => {
+    currentQuestion.answers.forEach(answers => {
         const button = document.createElement("button");
-        button.innerHTML = answer.text;
+        button.innerHTML = answers.text;
         button.classList.add("btn");
         answerButton.appendChild(button);
     })
