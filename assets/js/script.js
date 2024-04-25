@@ -39,7 +39,7 @@ const questions = [
 ];
 // Add variables from HTML by targeting the ID
 const question = document.getElementById("question");
-const answerButton = document.getElementById("answer-buttons");
+const answerButtons = document.getElementById("answer-buttons");
 const secondButton = document.getElementById("second-btn");
 
 //setting the question index and score to 0 from the start
@@ -55,6 +55,8 @@ function startQuiz(){
 }
  // function to display the questions
 function showQuestion(){
+    // resets the question before and make it hidden
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     question.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -63,8 +65,16 @@ function showQuestion(){
         const button = document.createElement("button");
         button.innerHTML = answers.text;
         button.classList.add("btn");
-        answerButton.appendChild(button);
+        answerButtons.appendChild(button);
     })
+}
+
+// define the reset function to make the previous question hidden
+function resetState(){
+    secondButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
 startQuiz();
 showQuestion();
