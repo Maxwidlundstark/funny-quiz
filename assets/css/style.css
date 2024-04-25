@@ -69,3 +69,10 @@ body {
     /*Making button hidden*/
     display: none;
 }
+/* Adding background color for the correcnt and incorrect answeres*/
+.correct{
+    background: green;
+}
+.incorrect{
+    background: red;
+}
