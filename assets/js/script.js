@@ -128,6 +128,6 @@ secondButton.addEventListener("click", ()=>{
         // restart the quiz if there is no more question.
         startQuiz();
     }
-})
+}); 
 
 startQuiz();
