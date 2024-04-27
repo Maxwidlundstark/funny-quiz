@@ -3,10 +3,10 @@ const questions = [
     {
         question: "What colors does the swedish flag have?",
         answers: [
-            { text: "blue & white", correct: false},
-            { text: "blue & yellow", correct: true},
-            { text: "red & white", correct: false},
-            { text: "red & blue", correct: false},
+            { text: "Blue & White", correct: false},
+            { text: "Blue & Yellow", correct: true},
+            { text: "Red & White", correct: false},
+            { text: "Red & Blue", correct: false},
         ]
     }, 
     {
@@ -28,7 +28,7 @@ const questions = [
         ]
     },
     {
-        question: "Which artist is not from sweden?",
+        question: "Which artist/group is not from sweden?",
         answers: [
             { text: "Zara Larsson", correct: false},
             { text: "David Guetta", correct: true},
