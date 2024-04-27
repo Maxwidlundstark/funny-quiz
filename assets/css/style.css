@@ -71,8 +71,8 @@ body {
 }
 /* Adding background color for the correcnt and incorrect answeres*/
 .correct{
-    background: green;
+    background: #bfe3b4;
 }
 .incorrect{
-    background: red;
+    background: #ff6961;
 }

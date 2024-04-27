@@ -19,9 +19,9 @@ const questions = [
         ]
     },
     {
-        question: "Which of these answers is not Swedish?",
+        question: "One of these is not from Sweden",
         answers: [
-            { text: "...", correct: true},
+            { text: "Audi", correct: true},
             { text: "IKEA", correct: false},
             { text: "Volvo", correct: false},
             { text: "Abba", correct: false},
