@@ -70,7 +70,7 @@ function showQuestion(){
         if (answers.correct){
             button.dataset.correct = answers.correct;
         }
-        // adding eventlistner for click answers
+        // adding eventlistner for click on answers
         button.addEventListener("click", selectAnswer);
     })
 }
@@ -91,5 +91,17 @@ function selectAnswer(e){
     }else{
         selectedBtn.classList.add("incorrect");
     }
+    /* Disable clicks after an answer is chosen. 
+    if answer is false the correct answer will show.*/ 
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        } 
+        button.disabled = true;
+    });
+    // code for the next question button. 
+    secondButton.style.display = "block";
 }
+
+
 startQuiz();
