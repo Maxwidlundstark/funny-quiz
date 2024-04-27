@@ -88,6 +88,8 @@ function selectAnswer(e){
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
         selectedBtn.classList.add("correct");
+        // increase the score by 1
+        score++
     }else{
         selectedBtn.classList.add("incorrect");
     }
@@ -102,6 +104,30 @@ function selectAnswer(e){
     // code for the next question button. 
     secondButton.style.display = "block";
 }
-
+// Code for showing score at the end
+function showScore(){
+    resetState();
+    question.innerHTML = `Good Job! You got ${score} out of ${questions.length}!`;
+    secondButton.innerHTML = "Play Again";
+    secondButton.style.display = "block";
+}
+// code for next question
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion();
+    }else{
+        showScore();
+    }
+}
+// Eventlisterner for the next question button.
+secondButton.addEventListener("click", ()=>{
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    }else{
+        // restart the quiz if there is no more question.
+        startQuiz();
+    }
+})
 
 startQuiz();
