@@ -64,7 +64,8 @@ This site will target both adults and children.
 ![Result & play again image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/result%20page.PNG)
 
 ### Features Left To Implement
-
+- More questions and different levels of difficulty.
+- Showcase images with the questions.
 ## Testing
 
 ### Validator Testing
