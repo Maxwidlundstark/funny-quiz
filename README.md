@@ -23,6 +23,7 @@ This site will target both adults and children.
 ## Features
 
 ### Existing Features
+
 - __Header__
   - The headers purpose is to explain to the users what the Quiz is about
 
@@ -95,6 +96,9 @@ This site will target both adults and children.
 ### Bugs
 - No Bugs detected.
 
+### Fixed Bugs
+- No unfixed bugs
+
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -103,6 +107,13 @@ This site will target both adults and children.
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 
 The live link can be found here (https://maxwidlundstark.github.io/funny-quiz/)
+
 ## Credits
-### Content
-### Media
+
+#### Content
+- How to use the forEach Method was taken from [W3Schools](https://www.w3schools.com/jsref/jsref_foreach.asp)
+- The code for showing quiz score was inspired from [W3Schools](https://www.w3schools.com/graphics/game_score.asp)
+- Code to display and hide answers was inspired from [Sitepoint](https://www.sitepoint.com/community/t/how-to-hide-answers-in-my-js-quiz/372748)
+- Code for showing final results was inspired from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
+- Function to check the selected answer was taken from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
+#### Media

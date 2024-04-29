@@ -37,7 +37,7 @@ const questions = [
         ]
     },
 ];
-// Add variables from HTML by targeting the ID
+// Select the HTML elements
 const question = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const secondButton = document.getElementById("second-btn");
@@ -55,7 +55,7 @@ function startQuiz(){
 }
  // function to display the questions
 function showQuestion(){
-    // resets the question before and make it hidden
+    // resets the previous question and make it hidden
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
