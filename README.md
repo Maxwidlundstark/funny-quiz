@@ -77,7 +77,7 @@ This site will target both adults and children.
 
 - The site is fully responsive for all standard screen sizes. I confirmed this by using Devtools.
 
- I confirmed that all functions and appearances is working and is easy to understand in: 
+- I confirmed that all functions and appearances is working and is easy to understand in: 
   - Questions
   - Answers selection
   - Next Question button
@@ -93,10 +93,16 @@ This site will target both adults and children.
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 ### Bugs
-### Fixed Bugs
+- No Bugs detected.
 
 ## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Click on Pages in the left hand side
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 
+The live link can be found here (https://maxwidlundstark.github.io/funny-quiz/)
 ## Credits
 ### Content
 ### Media
