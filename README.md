@@ -18,3 +18,20 @@ This site will target both adults and children.
 4. [Credits](#credits)
    1. [Content](#content)
    2. [Media](#media)
+
+## Features
+
+### Existing Features
+### Features Left To Implement
+
+## Testing
+
+### Validator Testing
+### Bugs
+### Fixed Bugs
+
+## Deployment
+
+## Credits
+### Content
+### Media
