@@ -49,11 +49,7 @@ body {
     cursor: pointer;
     transition: 0.2s;
 }
-/* styling hover for question buttons*/
-.btn:hover{
-    background: gray;
-    color: white;
-}
+
 /* styling for next question button*/
 #second-btn{
     background: #001e4d;
@@ -75,4 +71,12 @@ body {
 }
 .incorrect{
     background: #ff6961;
+}
+/*Responsive styling for bigger screens*/
+@media screen and (min-width: 768px) {
+    /* styling hover for question buttons*/
+.btn:hover{
+    background: gray;
+    color: white;
+ }
 }
