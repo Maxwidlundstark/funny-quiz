@@ -18,7 +18,7 @@ This site will target both adults and children.
 3. [Deployment](#deployment)
 4. [Credits](#credits)
    1. [Content](#content)
-   2. [Media](#media)
+   
 
 ## Features
 
@@ -30,25 +30,25 @@ This site will target both adults and children.
  ![Header image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/Home%20Header%20webpage.PNG)
 
 - __Question__
-  - This section of the page introduce the users to the question they are about to answer.
+  - This section of the page introduce the user to the question they are about to answer.
  
 ![Question image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/Question%20section.PNG)
 
 - __Answers__
   - This section gives the users a choice of 4 different answers where one is correct.
-  - By giving the users an preselection of answers it will be alot easier and more learning. 
+  - By giving the users an preselection of answers it will be a better learning experience. 
  
 ![Answer image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/Answers%20.PNG)
 
 - __Correct answer__
   - The correct answer functions purpose is to give the user an understanding of how the Quiz is going. 
-  - When the users answers correct it will turn green. 
+  - When the user answer correct it will turn green. 
 
 ![Correct answer image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/correct%20answer.PNG)
 
 - __Incorrect answer__
   - The incorrect answer function purpose is to give the user an understanding of how the Quiz is going. 
-  - When the users answer incorrect it will turn red and the correct answer will turn green to indicate that the answer was wrong.
+  - When the user answer incorrect it will turn red and the correct answer will turn green to indicate that the answer was wrong.
 
 ![Incorrect answer image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/incorrect%20answer.PNG)
 
@@ -116,4 +116,3 @@ The live link can be found here (https://maxwidlundstark.github.io/funny-quiz/)
 - Code to display and hide answers was inspired from [Sitepoint](https://www.sitepoint.com/community/t/how-to-hide-answers-in-my-js-quiz/372748)
 - Code for showing final results was inspired from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
 - Function to check the selected answer was taken from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
-#### Media
