@@ -39,10 +39,10 @@ const questions = [
     {
         question: "How many people lives in sweden?",
         answers: [
-            { text: "5 millions", correct: false},
+            { text: "5.5 millions", correct: false},
             { text: "10,5 millions", correct: true},
             { text: "30 millions", correct: false},
-            { text: "15 millions", correct: false},
+            { text: "15.5 millions", correct: false},
         ]
     },
     {
@@ -147,5 +147,5 @@ secondButton.addEventListener("click", ()=>{
         startQuiz();
     }
 }); 
-
+// to trigger functions to start quiz.
 startQuiz();
