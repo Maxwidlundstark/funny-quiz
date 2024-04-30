@@ -94,7 +94,7 @@ This site will target both adults and children.
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 ### Bugs
-- When i tested the quiz on mobile the color when answered dont change to green and red instead it get stuck with the color set for Hover. 
+- When i tested the quiz on mobile the color when answered didn't change to green or red instead it got stuck with the color set for the Hover selector. 
 
 ### Fixed Bugs
 - Adding Media query in css so that the hover selector only applies on screens with 768px and more. 
