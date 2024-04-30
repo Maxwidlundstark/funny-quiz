@@ -25,7 +25,7 @@ This site will target both adults and children.
 ### Existing Features
 
 - __Header__
-  - The headers purpose is to explain to the users what the Quiz is about
+  - The header's purpose is to explain to the users what the Quiz is about
 
  ![Header image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/Home%20Header%20webpage.PNG)
 
@@ -36,7 +36,7 @@ This site will target both adults and children.
 
 - __Answers__
   - This section gives the users a choice of 4 different answers where one is correct.
-  - By giving the users an preselection of answers it will be a better learning experience. 
+  - By giving the users a preselection of answers it will be a better learning experience. 
  
 ![Answer image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/Answers%20.PNG)
 
@@ -53,8 +53,8 @@ This site will target both adults and children.
 ![Incorrect answer image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/incorrect%20answer.PNG)
 
 - __Next Question button__
-  - The next quieston button appears when the user clicks on a answer, this will guide the users to move on in the quiz.
-  - when an answer is selected it appears automatically.
+  - The next question button appears when the user clicks on an answer, this will guide the users to move on in the quiz.
+  - When an answer is selected it appears automatically.
 
 ![Next question image](https://github.com/Maxwidlundstark/funny-quiz/blob/main/docs/next-question.PNG)
 
