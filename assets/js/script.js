@@ -36,6 +36,24 @@ const questions = [
             { text: "Swedish House Mafia", correct: false},
         ]
     },
+    {
+        question: "How many people lives in sweden?",
+        answers: [
+            { text: "5 millions", correct: false},
+            { text: "10,5 millions", correct: true},
+            { text: "30 millions", correct: false},
+            { text: "15 millions", correct: false},
+        ]
+    },
+    {
+        question: "How many lakes are there in sweden?",
+        answers: [
+            { text: "1500", correct: false},
+            { text: "100 000", correct: true},
+            { text: "25 000", correct: false},
+            { text: "15 000", correct: false},
+        ]
+    },
 ];
 // Select the HTML elements
 const question = document.getElementById("question");
