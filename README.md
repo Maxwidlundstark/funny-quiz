@@ -111,8 +111,8 @@ The live link can be found here (https://maxwidlundstark.github.io/funny-quiz/)
 ## Credits
 
 #### Content
-- How to use the forEach Method was taken from [W3Schools](https://www.w3schools.com/jsref/jsref_foreach.asp)
+- How to use the forEach Method was inspired from [W3Schools](https://www.w3schools.com/jsref/jsref_foreach.asp)
 - The code for showing quiz score was inspired from [W3Schools](https://www.w3schools.com/graphics/game_score.asp)
 - Code to display and hide answers was inspired from [Sitepoint](https://www.sitepoint.com/community/t/how-to-hide-answers-in-my-js-quiz/372748)
 - Code for showing final results was inspired from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
-- Function to check the selected answer was taken from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
+- Function to check the selected answer was inspired from[Shecodes](https://www.shecodes.io/athena?tag=quiz#questions)
